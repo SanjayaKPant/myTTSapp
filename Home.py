@@ -1,6 +1,6 @@
 import streamlit as st
 from gtts import gTTS
-
+import io
 tabs = st.tabs(["📈 Welcome", "⏳ TTS"])
 with tabs[0]:
     st.caption("To be updated")
